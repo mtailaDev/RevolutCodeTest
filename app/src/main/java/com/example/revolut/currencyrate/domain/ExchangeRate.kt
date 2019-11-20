@@ -1,5 +1,7 @@
 package com.example.revolut.currencyrate.domain
 
+import kotlin.random.Random
+
 data class ExchangeRate(
     val base: String,
     val date: String,
@@ -18,6 +20,6 @@ data class ExchangeRate(
 
 data class CurrencyRate(
     val currencyCode: String,
-    val conversionRate: Double? = null,
+    val conversionRate: Double? = Random.nextDouble(0.1, 19.0),
     var currencyAssociatedResourceId: Int = 0
 )

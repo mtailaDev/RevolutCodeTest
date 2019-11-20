@@ -1,5 +1,7 @@
 package com.example.revolut.currencyrate.ui
 
+import android.text.Editable
+import android.text.TextWatcher
 import android.widget.EditText
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
@@ -16,10 +18,16 @@ import com.example.revolut.common.ext.visible
 abstract class CurrencyRateEpoxyModel : EpoxyModelWithHolder<CurrencyRateEpoxyModelHolder>() {
 
     @EpoxyAttribute
+    lateinit var onChangeRateListener: OnChangeRateListener
+
+    @EpoxyAttribute
     lateinit var currencyCode: String
 
     @EpoxyAttribute
     var base: Boolean = false
+
+    @EpoxyAttribute
+    var valueConversion: Double = 0.0
 
     override fun bind(holder: CurrencyRateEpoxyModelHolder) {
         with(holder) {
@@ -34,13 +42,30 @@ abstract class CurrencyRateEpoxyModel : EpoxyModelWithHolder<CurrencyRateEpoxyMo
             textCurrencyDisplayName.text = currencyCode.getCurrencyDisplayName()
 
             if (base) {
-                editTextCurrencyInput.visible()
                 textCurrencyConversionValue.gone()
+                editTextCurrencyInput.visible()
+                setTextWatcher(editTextCurrencyInput)
+                editTextCurrencyInput.setText("$valueConversion")
             } else {
                 editTextCurrencyInput.gone()
                 textCurrencyConversionValue.visible()
+                textCurrencyConversionValue.text = String.format("%.2f", valueConversion)
             }
         }
+    }
+
+    private fun setTextWatcher(editTextCurrencyInput: EditText) {
+        editTextCurrencyInput.addTextChangedListener(object : TextWatcher {
+            override fun afterTextChanged(editable: Editable) {
+                if (editable.isNotEmpty()) {
+                    onChangeRateListener.onChangeRate(editable.toString().toDouble())
+                } else {
+                    onChangeRateListener.onChangeRate(0.0)
+                }
+            }
+            override fun beforeTextChanged(p0: CharSequence, p1: Int, p2: Int, p3: Int) {}
+            override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {}
+        })
     }
 }
 
