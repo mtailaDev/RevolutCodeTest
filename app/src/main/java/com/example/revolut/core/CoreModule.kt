@@ -9,7 +9,7 @@ import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.converter.moshi.MoshiConverterFactory
 
-const val baseUrl = "https://revolut.duckdns.org/latest"
+const val baseUrl = "https://revolut.duckdns.org"
 
 val coreModule = module {
     single<Moshi> {
