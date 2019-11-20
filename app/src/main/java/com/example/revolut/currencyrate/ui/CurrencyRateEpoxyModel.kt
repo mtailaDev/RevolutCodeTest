@@ -45,13 +45,9 @@ abstract class CurrencyRateEpoxyModel : EpoxyModelWithHolder<CurrencyRateEpoxyMo
 
             textCurrencyCode.text = currencyCode
             textCurrencyDisplayName.text = currencyCode.getCurrencyDisplayName()
-            Glide.with(root.context).load(iconId).circleCrop().into(imageCurrencyIcon)
-
-
-//            if (iconId > 0){
-//                imageCurrencyIcon.setImageResource(iconId)
-//            }
-
+            if (iconId > 0) {
+                Glide.with(root.context).load(iconId).circleCrop().into(imageCurrencyIcon)
+            }
             if (base) {
                 textCurrencyConversionValue.gone()
                 editTextCurrencyInput.visible()
