@@ -10,6 +10,10 @@ import org.koin.core.logger.Level
 
 class RevolutApp : Application(){
 
+    init {
+        instance = this
+    }
+
     override fun onCreate() {
         super.onCreate()
         startKoin {
@@ -22,7 +26,11 @@ class RevolutApp : Application(){
                 )
             )
         }
+    }
 
+    companion object {
+        lateinit var instance: RevolutApp
+            private set
     }
 
 }
