@@ -43,4 +43,14 @@ dependencies {
     implementation "com.airbnb.android:epoxy:$epoxy_version"
     kapt "com.airbnb.android:epoxy-processor:$epoxy_version"
 
+    // RX
+    def rxJava_version = "2.2.12"
+    def rxAndroid_version = "2.1.1"
+    implementation "io.reactivex.rxjava2:rxjava:$rxJava_version"
+    implementation "io.reactivex.rxjava2:rxandroid:$rxAndroid_version"
+    def rxKotlin_version = "2.4.0"
+    implementation "io.reactivex.rxjava2:rxkotlin:$rxKotlin_version"
+    implementation "com.jakewharton.rxrelay2:rxrelay:$rxAndroid_version"
+
+
 }
