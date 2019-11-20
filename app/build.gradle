@@ -45,6 +45,7 @@ dependencies {
     def epoxy_version = '3.8.0'
     implementation "com.airbnb.android:epoxy:$epoxy_version"
     kapt "com.airbnb.android:epoxy-processor:$epoxy_version"
+    implementation 'de.hdodenhof:circleimageview:3.0.1'
 
     // RX
     def rxJava_version = "2.2.12"
