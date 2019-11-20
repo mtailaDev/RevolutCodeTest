@@ -12,8 +12,9 @@ import com.example.revolut.R
 import com.example.revolut.common.ext.scrollPercentage
 import com.example.revolut.currencyrate.domain.CurrencyRate
 import com.example.revolut.currencyrate.ui.ExchangeRateEpoxyController
+import com.example.revolut.currencyrate.ui.OnChangeRateListener
 
-class CurrencyRateFragment : Fragment(){
+class CurrencyRateFragment : Fragment(), OnChangeRateListener{
 
     // views
     private lateinit var root: View
@@ -21,7 +22,11 @@ class CurrencyRateFragment : Fragment(){
     private lateinit var recyclerViewRates: EpoxyRecyclerView
 
     // variables
-    private val exchangeRateEpoxyController = ExchangeRateEpoxyController()
+    private val exchangeRateEpoxyController : ExchangeRateEpoxyController by lazy {
+        ExchangeRateEpoxyController(this)
+    }
+
+    val list = getStubData()
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         root = inflater.inflate(R.layout.fragment_currency_rates, container, false)
@@ -36,6 +41,11 @@ class CurrencyRateFragment : Fragment(){
         setupRecyclerViewScrollListener()
     }
 
+    override fun onChangeRate(value: Double) {
+        exchangeRateEpoxyController.value = value
+        exchangeRateEpoxyController.setData(list)
+    }
+
     private fun setupRecyclerViewScrollListener() {
         recyclerViewRates.addOnScrollListener(object : RecyclerView.OnScrollListener(){
             override fun onScrolled(recyclerView: RecyclerView, dx: Int, dy: Int) {
@@ -46,11 +56,11 @@ class CurrencyRateFragment : Fragment(){
 
     private fun setupRecyclerView() {
         recyclerViewRates.adapter = exchangeRateEpoxyController.adapter
-        exchangeRateEpoxyController.setData(getStubData())
+        exchangeRateEpoxyController.setData(list)
     }
 
     private fun getStubData() = listOf(
-        CurrencyRate("BGN"),
+        CurrencyRate("BGN", conversionRate = null),
         CurrencyRate("BRL"),
         CurrencyRate("CAD"),
         CurrencyRate("CHF"),
