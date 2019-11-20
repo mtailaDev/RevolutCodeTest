@@ -42,12 +42,11 @@ abstract class CurrencyRateEpoxyModel : EpoxyModelWithHolder<CurrencyRateEpoxyMo
             val textCurrencyCode: TextView = root.findViewById(R.id.textCurrencyCode)
             val textCurrencyDisplayName: TextView = root.findViewById(R.id.textCurrencyDisplayName)
             val textCurrencyConversionValue: TextView = root.findViewById(R.id.textCurrencyConversionValue)
-            val imageCurrencyIcon: CircleImageView = root.findViewById(R.id.imageCurrencyIcon)
-            val image: ImageView = root.findViewById(R.id.image)
+            val imageCurrencyIcon: ImageView = root.findViewById(R.id.imageCurrencyIcon)
 
             textCurrencyCode.text = currencyCode
             textCurrencyDisplayName.text = currencyCode.getCurrencyDisplayName()
-            Glide.with(root.context).load(iconId).circleCrop().into(image)
+            Glide.with(root.context).load(iconId).circleCrop().into(imageCurrencyIcon)
 
 
 //            if (iconId > 0){
