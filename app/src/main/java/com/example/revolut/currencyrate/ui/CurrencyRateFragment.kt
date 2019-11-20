@@ -11,8 +11,6 @@ import com.airbnb.epoxy.EpoxyRecyclerView
 import com.example.revolut.R
 import com.example.revolut.common.ext.scrollPercentage
 import com.example.revolut.currencyrate.domain.CurrencyRate
-import com.example.revolut.currencyrate.ui.ExchangeRateEpoxyController
-import com.example.revolut.currencyrate.ui.OnChangeRateListener
 
 class CurrencyRateFragment : Fragment(), OnChangeRateListener{
 
