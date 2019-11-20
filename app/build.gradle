@@ -52,5 +52,14 @@ dependencies {
     implementation "io.reactivex.rxjava2:rxkotlin:$rxKotlin_version"
     implementation "com.jakewharton.rxrelay2:rxrelay:$rxAndroid_version"
 
+    // Data
+    implementation("com.squareup.moshi:moshi-kotlin:1.8.0")
+    def retrofit_version = '2.6.2'
+    implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$retrofit_version"
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.12.0'
+    implementation("com.squareup.moshi:moshi-kotlin:1.8.0")
+    implementation "com.squareup.retrofit2:converter-moshi:2.4.0"
+
 
 }
