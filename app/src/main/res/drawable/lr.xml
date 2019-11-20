@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="209dp"
+    android:height="110dp"
+    android:viewportWidth="209"
+    android:viewportHeight="110">
+
+    <path
+        android:fillColor="#bf0a30"
+        android:pathData="M0,0 L209,0 L209,110 L0,110 L0,0 Z" />
+    <path
+        android:fillColor="#000000"
+        android:strokeColor="#fff"
+        android:strokeWidth="10"
+        android:pathData="M0,15 L209,15 M0,35 L209,35 M0,55 L209,55 M0,75 L209,75 M0,95 L209,95" />
+    <path
+        android:fillColor="#002868"
+        android:pathData="M0,0 L50,0 L50,50 L0,50 L0,0 Z" />
+    <group>
+        <group
+                android:name="B">
+            <path
+                android:name="A"
+                android:fillColor="#fff"
+                android:pathData="M0,0 L0,1 L0.5,1 Z" />
+            <path
+                android:name="A"
+                android:fillColor="#fff"
+                android:pathData="M0,0 L0,1 L0.5,1 Z" />
+        </group>
+        <group
+                android:name="B">
+            <path
+                android:name="A"
+                android:fillColor="#fff"
+                android:pathData="M0,0 L0,1 L0.5,1 Z" />
+            <path
+                android:name="A"
+                android:fillColor="#fff"
+                android:pathData="M0,0 L0,1 L0.5,1 Z" />
+        </group>
+        <group
+                android:name="B">
+            <path
+                android:name="A"
+                android:fillColor="#fff"
+                android:pathData="M0,0 L0,1 L0.5,1 Z" />
+            <path
+                android:name="A"
+                android:fillColor="#fff"
+                android:pathData="M0,0 L0,1 L0.5,1 Z" />
+        </group>
+        <group
+                android:name="B">
+            <path
+                android:name="A"
+                android:fillColor="#fff"
+                android:pathData="M0,0 L0,1 L0.5,1 Z" />
+            <path
+                android:name="A"
+                android:fillColor="#fff"
+                android:pathData="M0,0 L0,1 L0.5,1 Z" />
+        </group>
+        <group
+                android:name="B">
+            <path
+                android:name="A"
+                android:fillColor="#fff"
+                android:pathData="M0,0 L0,1 L0.5,1 Z" />
+            <path
+                android:name="A"
+                android:fillColor="#fff"
+                android:pathData="M0,0 L0,1 L0.5,1 Z" />
+        </group>
+        <group
+                android:name="B">
+            <path
+                android:name="A"
+                android:fillColor="#fff"
+                android:pathData="M0,0 L0,1 L0.5,1 Z" />
+            <path
+                android:name="A"
+                android:fillColor="#fff"
+                android:pathData="M0,0 L0,1 L0.5,1 Z" />
+        </group>
+        <group
+                android:name="B">
+            <path
+                android:name="A"
+                android:fillColor="#fff"
+                android:pathData="M0,0 L0,1 L0.5,1 Z" />
+            <path
+                android:name="A"
+                android:fillColor="#fff"
+                android:pathData="M0,0 L0,1 L0.5,1 Z" />
+        </group>
+        <group
+                android:name="B">
+            <path
+                android:name="A"
+                android:fillColor="#fff"
+                android:pathData="M0,0 L0,1 L0.5,1 Z" />
+            <path
+                android:name="A"
+                android:fillColor="#fff"
+                android:pathData="M0,0 L0,1 L0.5,1 Z" />
+        </group>
+        <group
+                android:name="B">
+            <path
+                android:name="A"
+                android:fillColor="#fff"
+                android:pathData="M0,0 L0,1 L0.5,1 Z" />
+            <path
+                android:name="A"
+                android:fillColor="#fff"
+                android:pathData="M0,0 L0,1 L0.5,1 Z" />
+        </group>
+        <group
+                android:name="B">
+            <path
+                android:name="A"
+                android:fillColor="#fff"
+                android:pathData="M0,0 L0,1 L0.5,1 Z" />
+            <path
+                android:name="A"
+                android:fillColor="#fff"
+                android:pathData="M0,0 L0,1 L0.5,1 Z" />
+        </group>
+        <group
+                android:name="B">
+            <path
+                android:name="A"
+                android:fillColor="#fff"
+                android:pathData="M0,0 L0,1 L0.5,1 Z" />
+            <path
+                android:name="A"
+                android:fillColor="#fff"
+                android:pathData="M0,0 L0,1 L0.5,1 Z" />
+        </group>
+        <group
+                android:name="B">
+            <path
+                android:name="A"
+                android:fillColor="#fff"
+                android:pathData="M0,0 L0,1 L0.5,1 Z" />
+            <path
+                android:name="A"
+                android:fillColor="#fff"
+                android:pathData="M0,0 L0,1 L0.5,1 Z" />
+        </group>
+        <group
+                android:name="B">
+            <path
+                android:name="A"
+                android:fillColor="#fff"
+                android:pathData="M0,0 L0,1 L0.5,1 Z" />
+            <path
+                android:name="A"
+                android:fillColor="#fff"
+                android:pathData="M0,0 L0,1 L0.5,1 Z" />
+        </group>
+        <group
+                android:name="B">
+            <path
+                android:name="A"
+                android:fillColor="#fff"
+                android:pathData="M0,0 L0,1 L0.5,1 Z" />
+            <path
+                android:name="A"
+                android:fillColor="#fff"
+                android:pathData="M0,0 L0,1 L0.5,1 Z" />
+        </group>
+        <group
+                android:name="B">
+            <path
+                android:name="A"
+                android:fillColor="#fff"
+                android:pathData="M0,0 L0,1 L0.5,1 Z" />
+            <path
+                android:name="A"
+                android:fillColor="#fff"
+                android:pathData="M0,0 L0,1 L0.5,1 Z" />
+        </group>
+        <group
+                android:name="B">
+            <path
+                android:name="A"
+                android:fillColor="#fff"
+                android:pathData="M0,0 L0,1 L0.5,1 Z" />
+            <path
+                android:name="A"
+                android:fillColor="#fff"
+                android:pathData="M0,0 L0,1 L0.5,1 Z" />
+        </group>
+    </group>
+</vector>

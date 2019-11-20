@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="220dp"
+    android:height="160dp"
+    android:viewportWidth="220"
+    android:viewportHeight="160">
+
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M0,0 L220,0 L220,160 L0,160 L0,0 Z" />
+    <path
+        android:fillColor="#0038b8"
+        android:pathData="M0,15 L220,15 L220,40 L0,40 L0,15 Z" />
+    <path
+        android:fillColor="#0038b8"
+        android:pathData="M0,120 L220,120 L220,145 L0,145 L0,120 Z" />
+    <path
+        android:name="triangle"
+        android:fillColor="#000000"
+        android:fillAlpha="0"
+        android:strokeColor="#0038b8"
+        android:strokeWidth="5.5"
+        android:pathData="M0,-29.141 L-25.2369,14.5705 L25.2369,14.5705 Z" />
+    <path
+        android:name="triangle"
+        android:fillColor="#000000"
+        android:fillAlpha="0"
+        android:strokeColor="#0038b8"
+        android:strokeWidth="5.5"
+        android:pathData="M0,-29.141 L-25.2369,14.5705 L25.2369,14.5705 Z" />
+    <path
+        android:name="triangle"
+        android:fillColor="#000000"
+        android:fillAlpha="0"
+        android:strokeColor="#0038b8"
+        android:strokeWidth="5.5"
+        android:pathData="M0,-29.141 L-25.2369,14.5705 L25.2369,14.5705 Z" />
+</vector>

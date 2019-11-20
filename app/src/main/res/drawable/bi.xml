@@ -1,0 +1,1401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="500dp"
+    android:height="300dp"
+    android:viewportWidth="500"
+    android:viewportHeight="300">
+
+    <path
+        android:fillColor="#ce1126"
+        android:pathData="M0,0 L500,0 L0,300 L500,300 Z" />
+    <path
+        android:fillColor="#1eb53a"
+        android:pathData="M0,0 L0,300 L500,0 L500,300 Z" />
+    <path
+        android:fillColor="#000000"
+        android:strokeColor="#fff"
+        android:strokeWidth="40"
+        android:pathData="M0,0 L500,300 M500,0 L0,300" />
+    <path
+        android:fillColor="#fff"
+        android:pathData="M250,65 C296.944,65,335,103.056,335,150 C335,196.944,296.944,235,250,235 C203.056,235,165,196.944,165,150 C165,103.056,203.056,65,250,65 Z" />
+    <group
+            android:name="star">
+        <group
+                android:name="s">
+            <group
+                    android:name="t">
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+            </group>
+            <group
+                    android:name="t">
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+            </group>
+        </group>
+        <group
+                android:name="s">
+            <group
+                    android:name="t">
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+            </group>
+            <group
+                    android:name="t">
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+            </group>
+        </group>
+    </group>
+    <group
+            android:name="star">
+        <group
+                android:name="s">
+            <group
+                    android:name="t">
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+            </group>
+            <group
+                    android:name="t">
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+            </group>
+        </group>
+        <group
+                android:name="s">
+            <group
+                    android:name="t">
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+            </group>
+            <group
+                    android:name="t">
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+            </group>
+        </group>
+    </group>
+    <group
+            android:name="star">
+        <group
+                android:name="s">
+            <group
+                    android:name="t">
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+            </group>
+            <group
+                    android:name="t">
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+            </group>
+        </group>
+        <group
+                android:name="s">
+            <group
+                    android:name="t">
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+            </group>
+            <group
+                    android:name="t">
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+            </group>
+        </group>
+    </group>
+    <group
+            android:name="star">
+        <group
+                android:name="s">
+            <group
+                    android:name="t">
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+            </group>
+            <group
+                    android:name="t">
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+            </group>
+        </group>
+        <group
+                android:name="s">
+            <group
+                    android:name="t">
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+            </group>
+            <group
+                    android:name="t">
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+            </group>
+        </group>
+    </group>
+    <group
+            android:name="star">
+        <group
+                android:name="s">
+            <group
+                    android:name="t">
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+            </group>
+            <group
+                    android:name="t">
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+            </group>
+        </group>
+        <group
+                android:name="s">
+            <group
+                    android:name="t">
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+            </group>
+            <group
+                    android:name="t">
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+            </group>
+        </group>
+    </group>
+    <group
+            android:name="star">
+        <group
+                android:name="s">
+            <group
+                    android:name="t">
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+            </group>
+            <group
+                    android:name="t">
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+            </group>
+        </group>
+        <group
+                android:name="s">
+            <group
+                    android:name="t">
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+            </group>
+            <group
+                    android:name="t">
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+            </group>
+        </group>
+    </group>
+    <group
+            android:name="star">
+        <group
+                android:name="s">
+            <group
+                    android:name="t">
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+            </group>
+            <group
+                    android:name="t">
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#1eb53a"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+            </group>
+        </group>
+        <group
+                android:name="s">
+            <group
+                    android:name="t">
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+            </group>
+            <group
+                    android:name="t">
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+                <group
+                        android:name="c">
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                    <path
+                        android:name="h"
+                        android:fillColor="#ce1126"
+                        android:pathData="M0,-20 L0,0 L20,0" />
+                </group>
+            </group>
+        </group>
+    </group>
+</vector>

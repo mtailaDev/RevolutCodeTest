@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="54dp"
+    android:height="36dp"
+    android:viewportWidth="54"
+    android:viewportHeight="36">
+
+    <path
+        android:fillColor="#002b7f"
+        android:pathData="M0,0 L54,0 L54,36 L0,36 L0,0 Z" />
+    <path
+        android:fillColor="#f9e814"
+        android:pathData="M0,22.5 L54,22.5 L54,27 L0,27 Z" />
+    <group
+            android:name="s">
+        <group
+                android:name="f">
+            <group
+                    android:name="t">
+                <path
+                    android:name="o"
+                    android:fillColor="#fff"
+                    android:pathData="M12,8 L12,12 L14,12 Z" />
+                <path
+                    android:name="o"
+                    android:fillColor="#fff"
+                    android:pathData="M12,8 L12,12 L14,12 Z" />
+            </group>
+            <group
+                    android:name="t">
+                <path
+                    android:name="o"
+                    android:fillColor="#fff"
+                    android:pathData="M12,8 L12,12 L14,12 Z" />
+                <path
+                    android:name="o"
+                    android:fillColor="#fff"
+                    android:pathData="M12,8 L12,12 L14,12 Z" />
+            </group>
+        </group>
+        <group
+                android:name="t">
+            <path
+                android:name="o"
+                android:fillColor="#fff"
+                android:pathData="M12,8 L12,12 L14,12 Z" />
+            <path
+                android:name="o"
+                android:fillColor="#fff"
+                android:pathData="M12,8 L12,12 L14,12 Z" />
+        </group>
+        <group
+                android:name="t">
+            <path
+                android:name="o"
+                android:fillColor="#fff"
+                android:pathData="M12,8 L12,12 L14,12 Z" />
+            <path
+                android:name="o"
+                android:fillColor="#fff"
+                android:pathData="M12,8 L12,12 L14,12 Z" />
+        </group>
+        <group
+                android:name="f">
+            <group
+                    android:name="t">
+                <path
+                    android:name="o"
+                    android:fillColor="#fff"
+                    android:pathData="M12,8 L12,12 L14,12 Z" />
+                <path
+                    android:name="o"
+                    android:fillColor="#fff"
+                    android:pathData="M12,8 L12,12 L14,12 Z" />
+            </group>
+            <group
+                    android:name="t">
+                <path
+                    android:name="o"
+                    android:fillColor="#fff"
+                    android:pathData="M12,8 L12,12 L14,12 Z" />
+                <path
+                    android:name="o"
+                    android:fillColor="#fff"
+                    android:pathData="M12,8 L12,12 L14,12 Z" />
+            </group>
+        </group>
+    </group>
+    <group
+            android:name="s">
+        <group
+                android:name="f">
+            <group
+                    android:name="t">
+                <path
+                    android:name="o"
+                    android:fillColor="#fff"
+                    android:pathData="M12,8 L12,12 L14,12 Z" />
+                <path
+                    android:name="o"
+                    android:fillColor="#fff"
+                    android:pathData="M12,8 L12,12 L14,12 Z" />
+            </group>
+            <group
+                    android:name="t">
+                <path
+                    android:name="o"
+                    android:fillColor="#fff"
+                    android:pathData="M12,8 L12,12 L14,12 Z" />
+                <path
+                    android:name="o"
+                    android:fillColor="#fff"
+                    android:pathData="M12,8 L12,12 L14,12 Z" />
+            </group>
+        </group>
+        <group
+                android:name="t">
+            <path
+                android:name="o"
+                android:fillColor="#fff"
+                android:pathData="M12,8 L12,12 L14,12 Z" />
+            <path
+                android:name="o"
+                android:fillColor="#fff"
+                android:pathData="M12,8 L12,12 L14,12 Z" />
+        </group>
+        <group
+                android:name="t">
+            <path
+                android:name="o"
+                android:fillColor="#fff"
+                android:pathData="M12,8 L12,12 L14,12 Z" />
+            <path
+                android:name="o"
+                android:fillColor="#fff"
+                android:pathData="M12,8 L12,12 L14,12 Z" />
+        </group>
+        <group
+                android:name="f">
+            <group
+                    android:name="t">
+                <path
+                    android:name="o"
+                    android:fillColor="#fff"
+                    android:pathData="M12,8 L12,12 L14,12 Z" />
+                <path
+                    android:name="o"
+                    android:fillColor="#fff"
+                    android:pathData="M12,8 L12,12 L14,12 Z" />
+            </group>
+            <group
+                    android:name="t">
+                <path
+                    android:name="o"
+                    android:fillColor="#fff"
+                    android:pathData="M12,8 L12,12 L14,12 Z" />
+                <path
+                    android:name="o"
+                    android:fillColor="#fff"
+                    android:pathData="M12,8 L12,12 L14,12 Z" />
+            </group>
+        </group>
+    </group>
+</vector>

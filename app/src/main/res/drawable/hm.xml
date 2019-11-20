@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="10080dp"
+    android:height="5040dp"
+    android:viewportWidth="10080"
+    android:viewportHeight="5040">
+
+    <group>
+        <path
+            android:fillColor="#00008b"
+            android:pathData="M0,0 L12,0 L12,6 L0,6 L0,0 Z" />
+        <path
+            android:fillColor="#000000"
+            android:strokeColor="#fff"
+            android:strokeWidth="0.6"
+            android:pathData="M0,0 L6,3 M6,0 L0,3" />
+        <path
+            android:fillColor="#000000"
+            android:strokeColor="#f00"
+            android:strokeWidth="0.4"
+            android:pathData="M0,0 L6,3 M6,0 L0,3" />
+        <path
+            android:fillColor="#000000"
+            android:strokeColor="#fff"
+            android:strokeWidth="1"
+            android:pathData="M3,0 L3,3.5 M0,1.5 L7,1.5" />
+        <path
+            android:fillColor="#000000"
+            android:strokeColor="#f00"
+            android:strokeWidth="0.6"
+            android:pathData="M3,0 L3,3.5 M0,1.5 L7,1.5" />
+        <path
+            android:fillColor="#00008b"
+            android:pathData="M0,3 L6,3 L6,0 L8,0 L8,4 L0,4 Z" />
+    </group>
+    <group>
+        <path
+            android:name="Comwlth"
+            android:fillColor="#fff"
+            android:pathData="M0,-360 L69.4214,-144.155 L281.459,-224.456 L155.988,-35.6033 L350.974,80.1075 L125.093,99.7584 L156.198,324.349 L0,160 L-156.198,324.349 L-125.093,99.7584 L-350.974,80.1075 L-155.988,-35.6033 L-281.459,-224.456 L-69.4214,-144.155 Z" />
+        <path
+            android:name="αCrucis"
+            android:fillColor="#fff"
+            android:pathData="M0,-360 L69.4214,-144.155 L281.459,-224.456 L155.988,-35.6033 L350.974,80.1075 L125.093,99.7584 L156.198,324.349 L0,160 L-156.198,324.349 L-125.093,99.7584 L-350.974,80.1075 L-155.988,-35.6033 L-281.459,-224.456 L-69.4214,-144.155 Z" />
+        <path
+            android:name="βCrucis"
+            android:fillColor="#fff"
+            android:pathData="M0,-360 L69.4214,-144.155 L281.459,-224.456 L155.988,-35.6033 L350.974,80.1075 L125.093,99.7584 L156.198,324.349 L0,160 L-156.198,324.349 L-125.093,99.7584 L-350.974,80.1075 L-155.988,-35.6033 L-281.459,-224.456 L-69.4214,-144.155 Z" />
+        <path
+            android:name="γCrucis"
+            android:fillColor="#fff"
+            android:pathData="M0,-360 L69.4214,-144.155 L281.459,-224.456 L155.988,-35.6033 L350.974,80.1075 L125.093,99.7584 L156.198,324.349 L0,160 L-156.198,324.349 L-125.093,99.7584 L-350.974,80.1075 L-155.988,-35.6033 L-281.459,-224.456 L-69.4214,-144.155 Z" />
+        <path
+            android:name="δCrucis"
+            android:fillColor="#fff"
+            android:pathData="M0,-360 L69.4214,-144.155 L281.459,-224.456 L155.988,-35.6033 L350.974,80.1075 L125.093,99.7584 L156.198,324.349 L0,160 L-156.198,324.349 L-125.093,99.7584 L-350.974,80.1075 L-155.988,-35.6033 L-281.459,-224.456 L-69.4214,-144.155 Z" />
+        <path
+            android:name="εCrucis"
+            android:fillColor="#fff"
+            android:pathData="M0,-210 L54.86,-75.5083 L199.722,-64.8936 L88.7653,28.8416 L123.435,169.894 L0,93.3333 L-123.435,169.894 L-88.7653,28.8416 L-199.722,-64.8936 L-54.86,-75.5083 Z" />
+    </group>
+</vector>

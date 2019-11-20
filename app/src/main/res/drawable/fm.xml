@@ -1,0 +1,1443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="38dp"
+    android:height="20dp"
+    android:viewportWidth="38"
+    android:viewportHeight="20">
+
+    <path
+        android:fillColor="#75b2dd"
+        android:pathData="M-19,-10 L19,-10 L19,10 L-19,10 L-19,-10 Z" />
+    <group
+            android:name="star">
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+    </group>
+    <group
+            android:name="star">
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+    </group>
+    <group
+            android:name="star">
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+    </group>
+    <group
+            android:name="star">
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+    </group>
+    <group
+            android:name="star">
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+    </group>
+    <group
+            android:name="star">
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+    </group>
+    <group
+            android:name="star">
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+    </group>
+    <group
+            android:name="star">
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+        <group
+                android:name="c">
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+            <path
+                android:name="t"
+                android:fillColor="#fff"
+                android:pathData="M0,-2 L0,0 L1,0" />
+        </group>
+    </group>
+</vector>
