@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/currencyRatesFragment"
-        android:name="com.example.revolut.currencyrate.CurrencyRateFragment"
+        android:name="com.example.revolut.currencyrate.ui.CurrencyRateFragment"
         android:label="CurrencyRatesFragment"
         tools:layout="@layout/fragment_currency_rates"/>
 </navigation>

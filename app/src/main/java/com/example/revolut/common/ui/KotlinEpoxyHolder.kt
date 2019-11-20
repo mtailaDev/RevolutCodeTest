@@ -1,4 +1,4 @@
-package com.example.revolut.common
+package com.example.revolut.common.ui
 
 import android.view.View
 import com.airbnb.epoxy.EpoxyHolder
