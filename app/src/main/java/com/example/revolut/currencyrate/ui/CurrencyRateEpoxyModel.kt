@@ -15,7 +15,6 @@ import com.example.revolut.common.ui.KotlinEpoxyHolder
 import com.example.revolut.common.ext.getCurrencyDisplayName
 import com.example.revolut.common.ext.gone
 import com.example.revolut.common.ext.visible
-import de.hdodenhof.circleimageview.CircleImageView
 
 @EpoxyModelClass(layout = R.layout.list_item_currency_rate)
 abstract class CurrencyRateEpoxyModel : EpoxyModelWithHolder<CurrencyRateEpoxyModelHolder>() {
