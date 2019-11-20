@@ -55,6 +55,7 @@ class CurrencyRateFragment : BaseMvRxFragment(), OnChangeRateListener{
             }
             is Success -> {
                 Log.i("Currency Rates", "Success")
+                exchangeRateEpoxyController.setData(state.ratesResult.invoke()!!)
             }
             is Fail -> {
                 Log.i("Currency Rates", "Fail")

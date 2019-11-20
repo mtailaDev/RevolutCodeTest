@@ -13,6 +13,7 @@ class ExchangeRateEpoxyController(private val onChangeRateListener: OnChangeRate
             currencyRate {
                 id(index)
                 base(index == 0)
+                iconId(currencyRate.currencyAssociatedResourceId)
                 currencyCode(currencyRate.currencyCode)
                 valueConversion(currencyRate.conversionRate?.let { it * value } ?: value)
                 onChangeRateListener(onChangeRateListener)
