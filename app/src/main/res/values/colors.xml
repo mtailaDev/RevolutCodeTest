@@ -3,4 +3,10 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <!--    // common-->
+    <color name="statusBarColor">#E5E5E5</color>
+    <color name="primaryDarkTextColor">#000000</color>
+    <color name="secondaryDarkTextColor">#8B959E</color>
+
 </resources>
