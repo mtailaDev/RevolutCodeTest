@@ -62,6 +62,8 @@ abstract class CurrencyRateEpoxyModel : EpoxyModelWithHolder<CurrencyRateEpoxyMo
     }
 
     private fun setTextWatcher(editTextCurrencyInput: EditText) {
+        editTextCurrencyInput.requestFocus()
+        editTextCurrencyInput.setSelection(0)
         editTextCurrencyInput.addTextChangedListener(object : TextWatcher {
             override fun afterTextChanged(editable: Editable) {
                 if (editable.isNotEmpty()) {
