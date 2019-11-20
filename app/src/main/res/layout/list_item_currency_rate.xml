@@ -28,7 +28,7 @@
         tools:text="US Dollar" />
 
     <TextView
-        android:id="@+id/textCurrencyInput"
+        android:id="@+id/textCurrencyConversionValue"
         style="@style/CurrencyHeaderText"
         android:layout_marginEnd="16dp"
         android:textAlignment="viewEnd"
