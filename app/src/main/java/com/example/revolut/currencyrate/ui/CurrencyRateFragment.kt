@@ -1,20 +1,20 @@
-package com.example.revolut.currencyrate
+package com.example.revolut.currencyrate.ui
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
 import com.airbnb.epoxy.EpoxyRecyclerView
+import com.airbnb.mvrx.*
 import com.example.revolut.R
 import com.example.revolut.common.ext.scrollPercentage
-import com.example.revolut.currencyrate.domain.CurrencyRate
-import com.example.revolut.currencyrate.ui.ExchangeRateEpoxyController
-import com.example.revolut.currencyrate.ui.OnChangeRateListener
 
-class CurrencyRateFragment : Fragment(), OnChangeRateListener{
+class CurrencyRateFragment : BaseMvRxFragment(), OnChangeRateListener{
+
+    private val getCurrencyRatesViewModel: CurrencyRatesViewModel by fragmentViewModel()
 
     // views
     private lateinit var root: View
@@ -25,8 +25,6 @@ class CurrencyRateFragment : Fragment(), OnChangeRateListener{
     private val exchangeRateEpoxyController : ExchangeRateEpoxyController by lazy {
         ExchangeRateEpoxyController(this)
     }
-
-    val list = getStubData()
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         root = inflater.inflate(R.layout.fragment_currency_rates, container, false)
@@ -43,7 +41,25 @@ class CurrencyRateFragment : Fragment(), OnChangeRateListener{
 
     override fun onChangeRate(value: Double) {
         exchangeRateEpoxyController.value = value
-        exchangeRateEpoxyController.setData(list)
+    }
+
+    override fun onResume() {
+        super.onResume()
+        getCurrencyRatesViewModel.getCurrencyRatesForBase("GBP", requireActivity().packageName)
+    }
+
+    override fun invalidate(): Unit = withState(getCurrencyRatesViewModel) { state ->
+        when (state.ratesResult) {
+            is Loading -> {
+                Log.i("Currency Rates", "Loading")
+            }
+            is Success -> {
+                Log.i("Currency Rates", "Success")
+            }
+            is Fail -> {
+                Log.i("Currency Rates", "Fail")
+            }
+        }
     }
 
     private fun setupRecyclerViewScrollListener() {
@@ -56,22 +72,6 @@ class CurrencyRateFragment : Fragment(), OnChangeRateListener{
 
     private fun setupRecyclerView() {
         recyclerViewRates.adapter = exchangeRateEpoxyController.adapter
-        exchangeRateEpoxyController.setData(list)
     }
 
-    private fun getStubData() = listOf(
-        CurrencyRate("BGN", conversionRate = null),
-        CurrencyRate("BRL"),
-        CurrencyRate("CAD"),
-        CurrencyRate("CHF"),
-        CurrencyRate("BRL"),
-        CurrencyRate("GBP"),
-        CurrencyRate("BGN"),
-        CurrencyRate("BRL"),
-        CurrencyRate("CAD"),
-        CurrencyRate("CHF"),
-        CurrencyRate("BRL"),
-        CurrencyRate("GBP"),
-        CurrencyRate("EUR")
-    )
 }

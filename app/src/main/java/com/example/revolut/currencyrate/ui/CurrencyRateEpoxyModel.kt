@@ -9,7 +9,7 @@ import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
 import com.airbnb.epoxy.EpoxyModelWithHolder
 import com.example.revolut.R
-import com.example.revolut.common.KotlinEpoxyHolder
+import com.example.revolut.common.ui.KotlinEpoxyHolder
 import com.example.revolut.common.ext.getCurrencyDisplayName
 import com.example.revolut.common.ext.gone
 import com.example.revolut.common.ext.visible
