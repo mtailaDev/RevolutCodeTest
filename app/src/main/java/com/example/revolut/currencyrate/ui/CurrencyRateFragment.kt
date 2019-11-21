@@ -11,8 +11,11 @@ import com.airbnb.epoxy.EpoxyRecyclerView
 import com.airbnb.mvrx.*
 import com.example.revolut.R
 import com.example.revolut.common.ext.scrollPercentage
+import com.example.revolut.currencyrate.domain.CurrencyRate
 
-class CurrencyRateFragment : BaseMvRxFragment(), OnChangeRateListener{
+class CurrencyRateFragment : BaseMvRxFragment(),
+    OnChangeRateListener,
+    OnCurrencyRateClickedListener {
 
     private val getCurrencyRatesViewModel: CurrencyRatesViewModel by fragmentViewModel()
 
@@ -22,11 +25,16 @@ class CurrencyRateFragment : BaseMvRxFragment(), OnChangeRateListener{
     private lateinit var recyclerViewRates: EpoxyRecyclerView
 
     // variables
-    private val exchangeRateEpoxyController : ExchangeRateEpoxyController by lazy {
-        ExchangeRateEpoxyController(this)
+    private val exchangeRateEpoxyController: ExchangeRateEpoxyController by lazy {
+        ExchangeRateEpoxyController(this, this)
     }
+    private var list = mutableListOf<CurrencyRate>()
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
         root = inflater.inflate(R.layout.fragment_currency_rates, container, false)
         recyclerViewRates = root.findViewById(R.id.recyclerViewRates)
         textRatesTitle = root.findViewById(R.id.textRatesTitle)
@@ -45,7 +53,14 @@ class CurrencyRateFragment : BaseMvRxFragment(), OnChangeRateListener{
 
     override fun onResume() {
         super.onResume()
-        getCurrencyRatesViewModel.getCurrencyRatesForBase("GBP", requireActivity().packageName)
+        subscribeToGetCurrency()
+    }
+
+    private fun subscribeToGetCurrency() {
+        getCurrencyRatesViewModel.asyncSubscribe(CurrencyRatesState::ratesResult) {
+            list = it.toMutableList()
+            exchangeRateEpoxyController.setData(it)
+        }
     }
 
     override fun invalidate(): Unit = withState(getCurrencyRatesViewModel) { state ->
@@ -55,7 +70,6 @@ class CurrencyRateFragment : BaseMvRxFragment(), OnChangeRateListener{
             }
             is Success -> {
                 Log.i("Currency Rates", "Success")
-                exchangeRateEpoxyController.setData(state.ratesResult.invoke()!!)
             }
             is Fail -> {
                 Log.i("Currency Rates", "Fail")
@@ -63,8 +77,19 @@ class CurrencyRateFragment : BaseMvRxFragment(), OnChangeRateListener{
         }
     }
 
+    override fun onCurrencyRateClicked(currencyCode: String) {
+        getCurrencyRatesViewModel.getRatesCompositeDisposable.clear()
+        val reorderedList = mutableListOf<CurrencyRate>()
+        reorderedList.add(CurrencyRate(currencyCode, null))
+        reorderedList.addAll(list.filter { it.currencyCode != currencyCode })
+        list = reorderedList
+        exchangeRateEpoxyController.setData(list)
+        recyclerViewRates.scrollToPosition(0)
+        getCurrencyRatesViewModel.getCurrencyRatesForBase(reorderedList.first().currencyCode)
+    }
+
     private fun setupRecyclerViewScrollListener() {
-        recyclerViewRates.addOnScrollListener(object : RecyclerView.OnScrollListener(){
+        recyclerViewRates.addOnScrollListener(object : RecyclerView.OnScrollListener() {
             override fun onScrolled(recyclerView: RecyclerView, dx: Int, dy: Int) {
                 textRatesTitle.elevation = recyclerView.scrollPercentage()
             }
