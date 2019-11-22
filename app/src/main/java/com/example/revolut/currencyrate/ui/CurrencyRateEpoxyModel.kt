@@ -1,7 +1,7 @@
 package com.example.revolut.currencyrate.ui
 
-import android.text.Editable
-import android.text.TextWatcher
+import android.util.Log
+import android.view.inputmethod.EditorInfo
 import android.widget.EditText
 import android.widget.ImageView
 import android.widget.TextView
@@ -15,6 +15,9 @@ import com.example.revolut.common.ui.KotlinEpoxyHolder
 import com.example.revolut.common.ext.getCurrencyDisplayName
 import com.example.revolut.common.ext.gone
 import com.example.revolut.common.ext.visible
+import com.jakewharton.rxbinding3.widget.textChanges
+import io.reactivex.disposables.CompositeDisposable
+import java.util.concurrent.TimeUnit
 
 @EpoxyModelClass(layout = R.layout.list_item_currency_rate)
 abstract class CurrencyRateEpoxyModel : EpoxyModelWithHolder<CurrencyRateEpoxyModelHolder>() {
@@ -39,12 +42,16 @@ abstract class CurrencyRateEpoxyModel : EpoxyModelWithHolder<CurrencyRateEpoxyMo
 
     override fun bind(holder: CurrencyRateEpoxyModelHolder) {
         with(holder) {
+            val compositeDisposable = CompositeDisposable()
+
             // views
             val editTextCurrencyInput: EditText = root.findViewById(R.id.editTextCurrencyInput)
             val textCurrencyCode: TextView = root.findViewById(R.id.textCurrencyCode)
             val textCurrencyDisplayName: TextView = root.findViewById(R.id.textCurrencyDisplayName)
-            val textCurrencyConversionValue: TextView = root.findViewById(R.id.textCurrencyConversionValue)
+            val textCurrencyConversionValue: TextView =
+                root.findViewById(R.id.textCurrencyConversionValue)
             val imageCurrencyIcon: ImageView = root.findViewById(R.id.imageCurrencyIcon)
+            editTextCurrencyInput.imeOptions = EditorInfo.IME_ACTION_DONE
 
             textCurrencyCode.text = currencyCode
             textCurrencyDisplayName.text = currencyCode.getCurrencyDisplayName()
@@ -54,8 +61,12 @@ abstract class CurrencyRateEpoxyModel : EpoxyModelWithHolder<CurrencyRateEpoxyMo
             if (base) {
                 textCurrencyConversionValue.gone()
                 editTextCurrencyInput.visible()
-                setTextWatcher(editTextCurrencyInput)
-                editTextCurrencyInput.setText("$valueConversion")
+                setTextWatcher(editTextCurrencyInput, compositeDisposable)
+                editTextCurrencyInput.setText(
+                    String.format("%.0f", valueConversion),
+                    TextView.BufferType.EDITABLE
+                )
+                editTextCurrencyInput.setSelection(String.format("%.0f", valueConversion).length)
             } else {
                 editTextCurrencyInput.gone()
                 textCurrencyConversionValue.visible()
@@ -67,20 +78,24 @@ abstract class CurrencyRateEpoxyModel : EpoxyModelWithHolder<CurrencyRateEpoxyMo
         }
     }
 
-    private fun setTextWatcher(editTextCurrencyInput: EditText) {
+    private fun setTextWatcher(
+        editTextCurrencyInput: EditText,
+        compositeDisposable: CompositeDisposable
+    ) {
         editTextCurrencyInput.requestFocus()
-        editTextCurrencyInput.setSelection(0)
-        editTextCurrencyInput.addTextChangedListener(object : TextWatcher {
-            override fun afterTextChanged(editable: Editable) {
-                if (editable.isNotEmpty()) {
-                    onChangeRateListener.onChangeRate(editable.toString().toDouble())
-                } else {
-                    onChangeRateListener.onChangeRate(0.0)
-                }
-            }
-            override fun beforeTextChanged(p0: CharSequence, p1: Int, p2: Int, p3: Int) {}
-            override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {}
-        })
+        compositeDisposable.clear()
+        compositeDisposable.add(
+            editTextCurrencyInput
+                .textChanges()
+                .debounce(300, TimeUnit.MILLISECONDS)
+                .subscribe({
+                    if (it.isNotEmpty()) {
+                        onChangeRateListener.onChangeRate(it.toString().toDouble())
+                    }
+                }, {
+                    Log.e("Base input error", it.toString())
+                })
+        )
     }
 }
 

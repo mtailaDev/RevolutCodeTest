@@ -48,6 +48,15 @@ dependencies {
     implementation 'com.github.bumptech.glide:glide:4.10.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.10.0'
 
+    // view binding
+    def rxBinding_version = "3.0.0"
+    implementation "com.jakewharton.rxbinding3:rxbinding:$rxBinding_version"
+    implementation "com.jakewharton.rxbinding3:rxbinding-core:$rxBinding_version"
+    implementation "com.jakewharton.rxbinding3:rxbinding-appcompat:$rxBinding_version"
+    implementation "com.jakewharton.rxbinding3:rxbinding-recyclerview:$rxBinding_version"
+    implementation "com.jakewharton.rxbinding3:rxbinding-viewpager:$rxBinding_version"
+    implementation "com.jakewharton.rxbinding3:rxbinding-material:$rxBinding_version"
+
     // RX
     def rxJava_version = "2.2.12"
     def rxAndroid_version = "2.1.1"
