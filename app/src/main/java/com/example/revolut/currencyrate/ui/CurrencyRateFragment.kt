@@ -82,8 +82,9 @@ class CurrencyRateFragment : BaseMvRxFragment(),
         getCurrencyRatesViewModel.getRatesCompositeDisposable.clear()
         getCurrencyRatesViewModel.getCurrencyCompositeDisposable.clear()
         val reorderedList = mutableListOf<CurrencyRate>()
-        reorderedList.add(CurrencyRate(currencyCode, null))
+        reorderedList.add(list.find { it.currencyCode == currencyCode }!!)
         reorderedList.addAll(list.filter { it.currencyCode != currencyCode })
+        reorderedList[0] = reorderedList[0].copy(conversionRate = null)
         list = reorderedList
         exchangeRateEpoxyController.setData(list)
         recyclerViewRates.scrollToPosition(0)
