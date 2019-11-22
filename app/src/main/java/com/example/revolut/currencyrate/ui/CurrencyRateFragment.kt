@@ -49,6 +49,7 @@ class CurrencyRateFragment : BaseMvRxFragment(),
 
     override fun onChangeRate(value: Double) {
         exchangeRateEpoxyController.value = value
+        exchangeRateEpoxyController.setData(list)
     }
 
     override fun onResume() {
@@ -79,6 +80,7 @@ class CurrencyRateFragment : BaseMvRxFragment(),
 
     override fun onCurrencyRateClicked(currencyCode: String) {
         getCurrencyRatesViewModel.getRatesCompositeDisposable.clear()
+        getCurrencyRatesViewModel.getCurrencyCompositeDisposable.clear()
         val reorderedList = mutableListOf<CurrencyRate>()
         reorderedList.add(CurrencyRate(currencyCode, null))
         reorderedList.addAll(list.filter { it.currencyCode != currencyCode })

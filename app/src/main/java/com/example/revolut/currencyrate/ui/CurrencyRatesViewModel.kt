@@ -28,6 +28,10 @@ class CurrencyRatesViewModel(
         disposeOnClear()
     }
 
+    val getCurrencyCompositeDisposable = CompositeDisposable().apply {
+        disposeOnClear()
+    }
+
     init {
         getCurrencyRatesForBase(initialState.base.invoke()!!)
         asyncSubscribe(CurrencyRatesState::base, onSuccess = {
@@ -55,10 +59,12 @@ class CurrencyRatesViewModel(
     }
 
     private fun getCurrency(baseCurrency: String) {
+        getCurrencyCompositeDisposable.clear()
         getCurrencyRatesUseCase.create(baseCurrency)
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
             .execute { copy(ratesResult = it) }
+            .addTo(getCurrencyCompositeDisposable)
     }
 
     companion object : MvRxViewModelFactory<CurrencyRatesViewModel, CurrencyRatesState> {
