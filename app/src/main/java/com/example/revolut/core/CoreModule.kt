@@ -7,6 +7,7 @@ import retrofit2.Retrofit
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import okhttp3.logging.HttpLoggingInterceptor
+import retrofit2.Converter
 import retrofit2.converter.moshi.MoshiConverterFactory
 
 const val baseUrl = "https://revolut.duckdns.org"
@@ -18,7 +19,7 @@ val coreModule = module {
             .build()
     }
 
-    single {
+    single<Converter.Factory> {
         MoshiConverterFactory.create(get())
     }
 
@@ -33,7 +34,7 @@ val coreModule = module {
         Retrofit
             .Builder()
             .baseUrl(baseUrl)
-            .addConverterFactory(get<MoshiConverterFactory>())
+            .addConverterFactory(get())
             .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
             .client(get())
             .build()

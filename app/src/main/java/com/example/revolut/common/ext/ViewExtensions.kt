@@ -11,7 +11,6 @@ fun RecyclerView.scrollPercentage(): Float {
     return if (scrollPercentage.isNaN()) 0f else scrollPercentage
 }
 
-
 fun View.gone() {
     visibility = View.GONE
 }

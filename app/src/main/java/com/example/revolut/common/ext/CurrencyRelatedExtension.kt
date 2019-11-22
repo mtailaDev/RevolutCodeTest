@@ -14,17 +14,16 @@ fun String.getCurrencyDisplayName() = Currency.getInstance(this).displayName
 fun mapCurrenciesCodesToCountryCodes(): HashMap<String, String> {
     val hashMap = HashMap<String, String>()
     Locale.getAvailableLocales().forEach { locale ->
-        locale.unicodeLocaleAttributes
         try {
-            when {
+            hashMap[Currency.getInstance(locale).currencyCode] = when {
                 Currency.getInstance(locale).currencyCode == USD_CURRENCY_CODE -> {
-                    hashMap[Currency.getInstance(locale).currencyCode] = USD_country_code
+                     USD_country_code
                 }
                 Currency.getInstance(locale).currencyCode == EUR_CURRENCY_CODE -> {
-                    hashMap[Currency.getInstance(locale).currencyCode] = EUR_country_code
+                    EUR_country_code
                 }
                 else -> {
-                    hashMap[Currency.getInstance(locale).currencyCode] = locale.country.toLowerCase(locale)
+                    locale.country.toLowerCase(locale)
                 }
             }
         } catch (e: Exception) {

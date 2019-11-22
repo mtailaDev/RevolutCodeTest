@@ -20,6 +20,9 @@ import com.example.revolut.common.ext.visible
 abstract class CurrencyRateEpoxyModel : EpoxyModelWithHolder<CurrencyRateEpoxyModelHolder>() {
 
     @EpoxyAttribute
+    lateinit var onCurrencyRateClickedListener: OnCurrencyRateClickedListener
+
+    @EpoxyAttribute
     lateinit var onChangeRateListener: OnChangeRateListener
 
     @EpoxyAttribute
@@ -57,6 +60,9 @@ abstract class CurrencyRateEpoxyModel : EpoxyModelWithHolder<CurrencyRateEpoxyMo
                 editTextCurrencyInput.gone()
                 textCurrencyConversionValue.visible()
                 textCurrencyConversionValue.text = String.format("%.2f", valueConversion)
+                root.setOnClickListener {
+                    onCurrencyRateClickedListener.onCurrencyRateClicked(currencyCode)
+                }
             }
         }
     }
